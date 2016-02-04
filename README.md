@@ -11,9 +11,13 @@ Include **cocoon_screenshot.js** in your Canvas+ index.html
 ## Usage
 To take and share a screenshot in the Canvas+ environment, use:
 ```
-Cocoon.Screenshot.share('Look at my Screenshot!');
+Cocoon.Screenshot.share('Look at my Screenshot!', function() { 
+
+  //Callback on completion
+  
+} );
 ```
 If you want to use it in the webView of Canvas+ use:
 ```
-Cocoon.App.forward("Cocoon.Screenshot.share('Look at my screenshot!')");
+Cocoon.App.forward("Cocoon.Screenshot.share('Look at my screenshot!', function() { //Callback on completion } );");
 ```
