@@ -13,7 +13,7 @@ To take and share a screenshot in the Canvas+ environment, use:
 ```
 Cocoon.Screenshot.share('Look at my Screenshot!');
 ```
-If you want use it in the webView of Canvas+ use:
+If you want to use it in the webView of Canvas+ use:
 ```
 Cocoon.App.forward("Cocoon.Screenshot.share('Look at my screenshot!')");
 ```
