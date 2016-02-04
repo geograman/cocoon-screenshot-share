@@ -18,7 +18,7 @@ document.addEventListener("deviceready", function() {
          * @example
          * Cocoon.Screenshot.share('Look at my Screenshot!');
          */
-        extension.share = function(message) {
+        extension.share = function(message, callback) {
         	
         	var screenshotURL = Cocoon.Utils.captureScreen("screenshot.jpg", Cocoon.App.StorageType.TEMPORARY_STORAGE, 0);
         	
@@ -46,7 +46,9 @@ document.addEventListener("deviceready", function() {
         	        
                 }, function(activity, completed, error){
                 	
-                	console.log("Share " + completed ? 'Ok.' : 'Failed.');
+                	//console.log("Share " + completed ? 'Ok.' : 'Failed.');
+                	
+                	callback();
                 	
                 });
         		
