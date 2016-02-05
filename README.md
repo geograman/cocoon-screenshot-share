@@ -3,7 +3,7 @@ Cocoon-Canvas+ Screenshot Share Extension
 
 This extension provides a simple way to take a screenshot and natively share it to Twitter, Facebook, WhatsApp... including a message.
 Does only work for Canvas+ at the moment. Credit goes to 
-[Blue_Sialia](https://forums.cocoon.io/users/Blue_Sialia)
+[Blue_Sialia](https://forums.cocoon.io/users/Blue_Sialia) and [HaNdTriX](http://stackoverflow.com/a/20285053)
 
 ## Instructions
 Include **cocoon_screenshot.js** in your Canvas+ index.html
