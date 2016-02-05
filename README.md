@@ -6,7 +6,8 @@ Does only work for Canvas+ at the moment. Credit goes to
 [Blue_Sialia](https://forums.cocoon.io/t/is-native-share-only-working-for-external-urls/1440/4?u=geograman) and [HaNdTriX](http://stackoverflow.com/a/20285053)
 
 ## Instructions
-Include **cocoon_screenshot.js** in your Canvas+ index.html
+1. Add the Native Share plugin to your project [cocoon-native-share-plugin](http://docs.cocoon.io/article/cocoon-native-share-plugin/)
+2. Include **cocoon_screenshot.js** in your Canvas+ index.html
 
 ## Usage
 To take and share a screenshot in the Canvas+ environment, use:
