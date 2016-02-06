@@ -14,9 +14,10 @@ document.addEventListener("deviceready", function() {
          * any system specific social sharing options. For example, Twitter, Facebook, SMS, Mail, ...
          * @memberOf Cocoon.Screenshot
          * @function share
-         * @property {string}  data.message       - The message that will be shared.
+         * @property {string}  data.message - The message that will be shared.
+         * @param callback {function} callback. The callback params called when share completed or dimissed.
          * @example
-         * Cocoon.Screenshot.share('Look at my Screenshot!');
+         * Cocoon.Screenshot.share('Look at my Screenshot!', function() { //Callback on completion } );
          */
         extension.share = function(message, callback) {
         	
